@@ -1,2 +1,3 @@
-# CEN4802
-CEN-4802C coursework, 2023
+# CEN-4802C : Software Integration, Configuration, and Testing
+
+Zachary Krantz
