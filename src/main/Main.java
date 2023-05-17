@@ -8,7 +8,12 @@ public class Main {
 		int out = fibRecursive(n,nums);
 		System.out.println("The " + n + "th term of the Fibonacci sequence is: " + out);
 	}
-	
+	/**
+	 * This method gets the nth term of the fibonacci sequence and returns it as an int.
+	 * @param n The nth term of the fibonacci sequence you want to retrieve.
+	 * @param fibNums An array of integers the size of n+1.
+	 * @return Integer of the nth term of fibonacci sequence.
+	 */
 	public static int fibRecursive(int n, int[] fibNums) {
 		//If the value at the position isn't NULL, return the value.
 		if(fibNums[n] != 0) return fibNums[n];
